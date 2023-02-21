@@ -1,0 +1,94 @@
+@use "global" as *;
+
+body {
+    font-family: arial, sans-serif;
+    color: #664949;
+    background: #6cd8ff url(/images/bg.png) 0 100% repeat-x;
+    transition: background 0.3s;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+#bg1 {
+    height: 100vh;
+    background: url(/images/bg1.png) 0 100% repeat-x;
+    transition: background 0.3s;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+#bg2 {
+    height: 100vh;
+    background: url(/images/bg2.png) 0 100% repeat-x;
+    transition: background 0.3s;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+#slide {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: rem(700);
+    height: rem(250);
+    margin: 0 auto;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+#sections {
+    position: absolute;
+    width: rem(2800);
+    height: 100%;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+section {
+    float: left;
+    width: rem(700);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+// ボタン部分
+li a {
+    text-indent: -9999px; // インデント-9999pxにして数値を消してる
+    display: block;
+    width: rem(16);
+    height: rem(16);
+    border-radius: rem(8);
+    background: #664949;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+li {
+    display: inline-block;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+ul {
+    text-align: center;
+
+    @include mq(md) {
+        // 
+    }
+}
