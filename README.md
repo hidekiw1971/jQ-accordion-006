@@ -1,4 +1,4 @@
-画像をコピペ
+<img width="1461" alt="image" src="https://user-images.githubusercontent.com/99580997/220479070-da429428-54f9-4e5f-be4d-27681d46deb5.png">
 
 # compornent（共通部品）
 - jQuery（パララックス効果）lesson16をコンポーネント化。
